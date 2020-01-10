@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="IBasicCalculator">
+      <HintPath>..\IBasicCalculator\bin\Debug\netcoreapp3.1\IBasicCalculator.dll</HintPath>
+    </Reference>
+    <Reference Include="MathOperations">
+      <HintPath>..\BasicCalc\MathOperations\bin\Debug\netcoreapp3.1\MathOperations.dll</HintPath>
+    </Reference>
+    <Reference Include="StatsOperations">
+      <HintPath>..\StatsOperations\bin\Debug\netcoreapp3.1\StatsOperations.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
